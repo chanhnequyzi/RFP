@@ -24,21 +24,28 @@ Trước khi sinh ra câu trả lời, Agent **PHẢI** chạy ngầm luồng su
 ### Bước 3: Chọn chiến lược trả lời
 
 * **Rule 1 - Khi tính năng của Mobio xịn hơn yêu cầu:**
+
   * *Tuyên bố:***"Đáp ứng vượt trội!"**
   * *Hành động:* Nêu rõ điểm vượt trội và dẫn chứng thực tế nếu có (chịu tải lớn hơn, cấu hình động không cần code, giao diện kéo thả...).
 * **Rule 2 - Khi yêu cầu Bắt buộc (Must) nhưng cần Tùy biến (Customize):**
+
   * *Tuyên bố:***"Đáp ứng một phần"** hoặc  **"Có khả năng đáp ứng thông qua tùy biến"** **.**
   * Mô tả phần đã có sẵn và Rào trước các yêu cầu cho phần cần tùy biến.
   * Đánh dấu những mục này để team phát triển tính chi phí triển khai.
   * Phải chèn câu: *"Chi phí tuỳ biến để đáp ứng hoàn toàn yêu cầu, đã được bao gồm trong giá chào của gói thầu."* (Nếu không có câu này, tổ chấm thầu sẽ đánh rớt vì sợ phát sinh chi phí).
 * **Rule 3 - Khi yêu cầu Tùy chọn (Should/Nice to have) nhưng cần Tùy biến:**
+
   * *Tuyên bố:* **"Đáp ứng thông qua tùy biến bổ sung"** **.**
   * Đánh dấu những mục này để team phát triển tính chi phí triển khai.
   * Phải chèn câu: *"Hạng mục không nằm trong phạm vi triển khai tiêu chuẩn và sẽ được xem xét triển khai theo nhu cầu thực tế của Ngân hàng, trên cơ sở thống nhất về phạm vi, chi phí và tiến độ."* (Để bảo vệ chi phí triển khai).
 * **Rule 4 - Khi yêu cầu liên quan đến Dữ liệu/Tích hợp (Core, LOS, CIC):**
+
   * *Tuyên bố:***"Đáp ứng hoàn toàn!"**
   * *Ràng buộc BẮT BUỘC:* Phải rào trước điều kiện: *"Điều kiện cần là Ngân hàng (hoặc đối tác thứ ba) cung cấp API/hệ thống nguồn sẵn sàng tích hợp..."*
-* **Rule 5 - Không đáp ứng**
+* **Rule 5 - Không đáp ứng/ Ngoài phạm vi**
+
+  * TUYỆT ĐỐI KHÔNG tự đưa ra tuyên bố
+  * Cần đánh dấu & báo cho team PO/SA/EA/PD để thảo luận ngay để con người ra quyết định hướng phản hồi
 
 ### Bước 4: Xác định Risk (Rủi ro)
 
