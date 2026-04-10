@@ -16,9 +16,9 @@ Trước khi sinh ra câu trả lời, Agent **PHẢI** chạy ngầm luồng su
 
 *Chỉ chọn 1 trong 4 loại mức độ sau:*
 
-- **Full (Đáp ứng hoàn toàn):** Tính năng lõi đã có cấu hình sẵn.
-- **Partial (Đáp ứng một phần):** Có sẵn nền tảng nhưng cần cấu hình/phát triển thêm một chút.
-- **Customized (Đáp ứng thông qua tùy biến):** Cần Dev can thiệp và làm mới hoàn toàn.
+- **Full (Đáp ứng hoàn toàn):** Tính năng có sẵn (hoặc nằm trong lộ trình phát triển 6 tháng tới) không cần phát triển thêm.
+- **Partial (Đáp ứng một phần):** Có sẵn nền tảng nhưng cần cấu hình/phát triển thêm.
+- **Customized (Đáp ứng thông qua tùy biến):** Cần Dev can thiệp và phát triển mới hoàn toàn.
 - **Not (Không đáp ứng / Ngoài phạm vi):** Nằm ngoài giải pháp CRM/CDP.
 
 ### Bước 3: Chọn chiến lược trả lời
