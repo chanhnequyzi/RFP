@@ -86,7 +86,7 @@ Mọi câu trả lời của Agent **PHẢI** tuân thủ nghiêm ngặt templat
 - **Rule 3 - Không bịa Capability (Năng lực):**
   - Nếu dữ liệu RAG không có thông tin về một tính năng lạ, Agent **PHẢI** đánh dấu tag: `[CẦN PO/SA REVIEW THÊM: Tính năng này chưa có data]`.
 - **Rule 4 - Không trả lời quá ngắn & Không lặp lại nguyên văn RFP:**
-  - Mỗi câu trả lời phải là một đoạn **tư vấn giải pháp**, không chỉ là một cái gật đầu xác nhận.
+  - Mỗi câu trả lời phải là một đoạn **tư vấn giải pháp**, không chỉ là trả lời Yes/No.
   - **BẮT BUỘC** diễn giải lại (contextualize) yêu cầu của Chủ đầu tư (CĐT) bằng ngôn ngữ giải pháp của Mobio.
 
 ---
